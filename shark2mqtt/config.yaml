@@ -1,8 +1,8 @@
-name: Shark2MQTT
-version: "1.0.12"
-slug: shark2mqtt
-description: Bridge SharkNinja robot vacuums to Home Assistant via MQTT autodiscovery.
-url: https://github.com/400HPMustang/shark2mqtt-addon
+name: Shark2MQTT (s1dave)
+version: "1.7.0-s1"
+slug: shark2mqtt_s1dave
+description: Shark2MQTT fork with an app-style live map, readable sensors and app settings. Run instead of Shark2MQTT, not alongside it.
+url: https://github.com/s1dave-web/shark2mqtt-addon
 arch:
   - amd64
   - aarch64
@@ -32,6 +32,9 @@ options:
   map_show_scan: false
   browser_login: true
   pause_operating_mode: 1
+  map_style: app
+  map_log_position: false
+  map_entity: camera
 schema:
   shark_username: email
   shark_password: password
@@ -51,3 +54,6 @@ schema:
   map_show_scan: bool
   browser_login: bool
   pause_operating_mode: int(0,1)
+  map_style: list(classic|app)
+  map_log_position: bool
+  map_entity: list(image|camera)

@@ -154,6 +154,9 @@ export_if_set MAP_IMAGE "$(read_option map_image)"
 export_if_set MAP_SHOW_SCAN "$(read_option map_show_scan)"
 export_if_set BROWSER_LOGIN "$(read_option browser_login)"
 export_if_set PAUSE_OPERATING_MODE "$(read_option pause_operating_mode)"
+export_if_set MAP_STYLE "$(read_option map_style)"
+export_if_set MAP_LOG_POSITION "$(read_option map_log_position)"
+export_if_set MAP_ENTITY "$(read_option map_entity)"
 
 # Persist Shark auth tokens and auth failure screenshots in the add-on's
 # persistent /data volume.

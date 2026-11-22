@@ -58,3 +58,18 @@ configuration:
     description: >-
       Value sent for pause (default 1). Some robots, such as the UR2850ZEUS,
       only pause with 0. On many models 0 means stop, so test it first.
+  map_style:
+    name: Map style
+    description: >-
+      "app" draws a SharkClean-style map with the dock and the robot's live
+      position while it cleans. "classic" is the original Shark2MQTT plan.
+  map_log_position:
+    name: Log live position
+    description: >-
+      Testing aid: log the robot's live position on every poll while it is
+      away from the dock, to see how often Shark's cloud updates it.
+  map_entity:
+    name: Map entity type
+    description: >-
+      "camera" publishes the map as a camera entity (PNG), like other vacuum
+      integrations. "image" publishes it as an image entity (SVG).
