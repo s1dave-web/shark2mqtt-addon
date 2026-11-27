@@ -1,5 +1,5 @@
 name: Shark2MQTT (s1dave)
-version: "1.7.0-s2"
+version: "1.7.0-s3"
 slug: shark2mqtt_s1dave
 description: Shark2MQTT fork with an app-style live map, readable sensors and app settings. Run instead of Shark2MQTT, not alongside it.
 url: https://github.com/s1dave-web/shark2mqtt-addon

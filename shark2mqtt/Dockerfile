@@ -12,7 +12,7 @@ ARG SHARK2MQTT_VERSION=1.7.0
 FROM ghcr.io/camsoper/shark2mqtt:${SHARK2MQTT_VERSION}
 
 # Commit (or tag) of github.com/s1dave-web/shark2mqtt to run
-ARG SHARK2MQTT_FORK_REF=6db8a7d69f6d70cb2ee499460b904c602b6190d3
+ARG SHARK2MQTT_FORK_REF=87ad344c513cbfaa7cd32325b157d12745e07ddc
 
 USER root
 
